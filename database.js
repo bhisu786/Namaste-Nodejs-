@@ -3,7 +3,7 @@
 const {MongoClient} = require("mongodb");
 
 
-const url = "mongodb+srv://balharabhisham:hEXaRJbwj3afl6oN@cluster0.7vefpjn.mongodb.net/NamasteNodeJS";
+const url = "mongodb+srv://balharabhisham:Password@cluster0.7vefpjn.mongodb.net/NamasteNodeJS";
 
 const client  = new MongoClient(url);
 
