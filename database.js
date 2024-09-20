@@ -1,4 +1,4 @@
-// PassWord For the Mongodb :- "hEXaRJbwj3afl6oN"
+// PassWord For the Mongodb :- "/"
 
 const {MongoClient} = require("mongodb");
 
@@ -17,7 +17,7 @@ const dbName ="HelloWorld";
  const db =  client.db(dbName);
  const collection = db.collection('Users');
 
- // the following code example can be paste here
+ 
  const Data  ={
     first_name:"Bhisham ",
     last_name:"Balhara",
@@ -36,7 +36,10 @@ const dbName ="HelloWorld";
    console.log("Count of Documents in the user Collection =>",countResult);
 
    // find all the documents with a filter of First_Name :Bhisham
-    
+
+
+  //  COUNT  is depreciated in mongodb in newest update of MONGODB...
+  
    // const result =await collection.find({first_name:"Bhishu"}).count();
    // console.log("result=> ",result);
      
